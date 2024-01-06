@@ -128,7 +128,7 @@
 								<input id="description" name="description" type="text" class="form-control" autofocus required>
 							</div>
 						</div>
-						<br style="clear: both;">
+						<br><br style="clear: both;">
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Quantidade:</label>
 							<div class="col-sm-10">
@@ -136,7 +136,7 @@
 							</div>
 						</div>
 
-						<br style="clear: both;">
+						<br><br style="clear: both;">
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Categoria:</label>
 							<div class="col-sm-10">
@@ -152,7 +152,7 @@
 							</div>
 						</div>
 
-						<br style="clear: both;">
+						<br><br style="clear: both;">
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Marca:</label>
 							<div class="col-sm-10">
@@ -168,7 +168,7 @@
 							</div>
 						</div>
 
-						<br style="clear: both;">
+						<br><br style="clear: both;">
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Preço:</label>
 							<div class="col-sm-10">
@@ -176,28 +176,28 @@
 							</div>
 						</div>
 
-						<br style="clear: both;">
+						<br><br style="clear: both;">
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Imagem:</label>
 							<div class="col-sm-10">
 								<input id="image" name="image" type="file" onchange="display_image(this.files[0],this.name,'js-product-images-add')" class="form-control" required>
 							</div>
 						</div>
-						<br style="clear: both;">
+						<br><br style="clear: both;">
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Imagem2 (opcional):</label>
 							<div class="col-sm-10">
 								<input id="image2" name="image2" type="file" onchange="display_image(this.files[0],this.name,'js-product-images-add')" class="form-control">
 							</div>
 						</div>
-						<br style="clear: both;">
+						<br><br style="clear: both;">
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Imagem3 (opcional):</label>
 							<div class="col-sm-10">
 								<input id="image3" name="image3" type="file" onchange="display_image(this.files[0],this.name,'js-product-images-add')" class="form-control">
 							</div>
 						</div>
-						<br style="clear: both;">
+						<br><br style="clear: both;">
 						<div class="form-group">
 							<label class="col-sm-2 col-sm-2 control-label">Imagem4 (opcional):</label>
 							<div class="col-sm-10">
@@ -216,7 +216,7 @@
 
 					</form>
 
-					<br>
+					<br><br>
 				</div>
 				<!--add new product end-->
 
@@ -465,6 +465,7 @@
 		data.append('image', image_input.files[0]);
 
 		send_data_files(data);
+		
 
 	}
 

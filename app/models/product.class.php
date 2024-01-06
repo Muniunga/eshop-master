@@ -195,7 +195,6 @@ Class Product
 		$result = "";
 		if(is_array($cats)){
 			foreach ($cats as $cat_row) {
-				# code...
  
  				$edit_args = $cat_row->id.",'".$cat_row->description."'";
 
@@ -213,7 +212,7 @@ Class Product
 
  				$info = str_replace('"', "'", json_encode($info));
 
- 				//$one_cat = $model->get_one($cat_row->category);
+ 				$one_cat = $model->get_one($cat_row->category);
  				$result .= "<tr>";
 				
 					$result .= '
