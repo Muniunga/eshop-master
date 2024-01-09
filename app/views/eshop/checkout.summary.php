@@ -45,7 +45,7 @@
 											
 										</table>
 										<table class="table" style="flex: 1;margin: 4px;">
-											<tr><th>Zip/Postal Code</th><td><?=$order->postal_code?></td></tr>
+											
 											<tr><th>Telefone</th><td><?=$order->home_phone?></td></tr>
 											<tr><th>Telefone pessoal</th><td><?=$order->mobile_phone?></td></tr>
 											<tr><th>Data</th><td><?=date("Y-m-d")?></td></tr>
