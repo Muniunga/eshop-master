@@ -65,7 +65,7 @@ Class Order extends Controller
 			$data['country'] = $POST['country'];
 			//$state_obj = $countries->get_state($POST['state']);
 			$data['state'] = $POST['state'];
-			$data['zip'] = $POST['postal_code'];
+
 			$data['tax'] = 0;
 			$data['shipping'] = 0;
 			$data['date'] = date("Y-m-d H:i:s");

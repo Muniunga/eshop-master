@@ -33,7 +33,7 @@
 
 			$address1 		= "";
 			$address2 		= "";
-			$postal_code 	= "";
+
 			$country 		= "";
 			$state 			= "";
 			$home_phone 	= "";
@@ -58,7 +58,7 @@
  									
 								<input name="address1" value="<?=$address1?>" class="form-control" type="text" placeholder="Endereço 1 *" autofocus="autofocus" required><br>
 								<input name="address2" value="<?=$address2?>" class="form-control" type="text" placeholder="Endereço 2"><br>
-								<input name="postal_code" value="<?=$postal_code?>" class="form-control" type="text" placeholder="Codigo Postal *" required><br>
+						
 								 
 							</div>
 							<div class="form-two">

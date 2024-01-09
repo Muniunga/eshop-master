@@ -1,7 +1,7 @@
               </div>
             </div>
       
-        </section><! --/wrapper -->
+        </section>
       </section><!-- /MAIN CONTENT -->
 
       <!--main content end-->
