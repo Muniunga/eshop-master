@@ -37,7 +37,7 @@
 						<a style="float: right;cursor: pointer;">Fechar</a>
 						<h3>Pedido #<?=$order->id?></h3>
 						<h4>Cliente: <?=$order->user->name?></h4>
-						<h4>Estado: Entregue</h4>
+						<h4>Estado:<?=$order->status?> </h4>
 						
 						<!--order details-->
 						<div style="display: flex;">

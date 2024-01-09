@@ -44,5 +44,15 @@ Class Payment extends Controller
  		
 	}
 
+	public function validatePayment($payment_id) {
+        $DB = Database::newInstance();
+
+        // Atualizar o status do pagamento para "APPROVED" ou "COMPLETED" após validação pelo admin
+        $query = "UPDATE payments SET status = :status, validated = 1 WHERE payment_id = :payment_id";
+        $DB->write($query, array('status' => 'APPROVED', 'payment_id' => $payment_id)); // Ou 'COMPLETED', dependendo do caso
+
+        // Retorne uma resposta ou redirecione para onde necessário após validar o pagamento
+    }
+
 
 }
